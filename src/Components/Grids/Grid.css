@@ -1,0 +1,17 @@
+.grid { 
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.turn-state, .winner-name {
+    color: white;
+}
+
+.reset {
+    cursor: pointer;
+    padding: 7px;
+}
